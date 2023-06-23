@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IP22-TIM4-rekreativni-tenis
 
 
@@ -98,3 +99,6 @@ i sve ostalo sto ima smisla u okviru projekta
 
 
 
+=======
+# Rekreativni-Tenis
+>>>>>>> 41909c76a9a0b2c51991f70d87c3b48583d30b79
