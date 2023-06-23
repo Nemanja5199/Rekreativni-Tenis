@@ -1,0 +1,121 @@
+html,body {
+    height: 100%;
+    background-color: #eee;
+  }
+h1{
+    font-family: 'Poppins';
+    font-size: 3rem;
+    font-weight: 700;
+}
+#overflowTest {
+    font-family: 'Poppins';
+    font-weight: 300;
+    background: linear-gradient(-180deg, #b9b9b942 11%, rgba(255,255,255,0) 100%); 
+    color: black;
+    width: 100%;
+    height: 150px;
+    overflow: scroll;
+    border-radius: 0.5rem;
+    padding: 8px;
+  }
+.bg-reg{
+    background: #FFFFFF url(img/tennis-concept-illustration_114360-8106.webp) no-repeat center center;    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: auto;
+    background-position: bottom;
+
+}
+
+  
+.card{
+    backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.33)!important;
+
+}
+.card-custom{
+    opacity: 0.8;
+    backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.33)!important;
+    transition: 0.3s;
+
+}
+.card-custom:hover{
+    opacity: 1;
+    scale: 1.05;
+}
+.carousel-inner, .slide, .active{
+    max-height: 600px;
+    min-width: auto;
+}
+h5{
+    font-family: 'Poppins';
+    font-size: 2rem;
+    font-weight: 700;
+}
+h6{
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 700;
+}
+p{
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+label, button{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+}
+.btn-primary,.custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+    background-color: #056839;
+    border: 1px solid #05683a4d;
+
+}
+.btn-primary:hover{
+    background-color: #24d180;
+    border: 1px solid #a3ffd44d;
+
+
+}
+.center-cropped {
+    width: 30rem;
+    height: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+.form-control, .form-select{
+    font-family: 'Poppins';
+    border: 1px solid #05683a4d;
+}
+.btn-male{
+    background-color: rgb(219, 246, 255);
+    font-weight: 700;
+    color: rgb(89, 89, 255);
+    border: 0;
+}
+.btn-female{
+    background-color: rgb(255, 228, 232);
+    color: rgb(255, 85, 85);
+    font-weight: 700;
+    border: 0;
+
+}
+.navbar-custom{
+    font-family: 'Poppins';
+    color: white;
+}
+a{
+    font-family: 'Poppins';
+
+    color: white;
+    font-weight: 400;
+}
+a:hover{
+    font-weight: 600;
+    color: lime;
+}
+.player{
+    border-radius: 50%;
+}
